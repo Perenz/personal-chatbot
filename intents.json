@@ -1,0 +1,44 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hello there", "Hi", "Hola", "Hej", "Ciao"],
+        "responses": ["Hello there, how can I help you?", "Good to see you, how can I help you?"],
+        "context": [""]
+    },
+    {
+        "tag": "options",
+        "patterns": ["What can you do for me?", "How can you help me?", "What is this?", "Help"],
+        "responses": ["I am Stefano. I can guide you through my experiences, education path and projects!", "This is Stefano talking. Welcome! Ask me about myself, my experiences, education path and projects"],
+        "context": [""]
+    },
+    {
+        "tag": "about",
+        "patterns": ["Who is Stefano?", "Who are you?", "Talk me about Stefano", "Talk me about you", "Describe Stefano"],
+        "responses": ["I am Stefano. I am currently a first year student for the EIT Digital Master School double degree with a major in Data Science and a minor in Innovation & Entrepreneurship. I am currently enrolled at KTH Royal Instute of Tecnology as entry university and will attend University of Twente as exit university where I will specialize in Data Science for persona information. I am expected to graduate in summer 2022. As a Data Scientist, my goal is to turn data into actionable insights applicable for customers' benefits and improved experience. I believe data can be used to have a real impact on people's daily lives. When I am not wondering on a new way to apply some data, I love practicing sports to keep myself healthy, enjoying time with my peers and meeting new people from all around the worlds."],
+        "context": [""]
+    },
+    {
+        "tag": "experiences",
+        "patterns": ["Where did you work?", "Where did Stefano work?", "What experiences do you have?"],
+        "responses": ["Experiences"],
+        "context": [""]
+    },
+    {
+        "tag": "education",
+        "patterns": ["What did you study?", "What did Stefano study?", "What is your background?", "What degree do you have?", "When did you graduate?"],
+        "responses": ["Education"],
+        "context": [""]
+    },
+    {
+        "tag": "projects",
+        "patterns": ["What projects did you accomplish?", "Talk me about Stefano's projects", "Talk me about your projects"],
+        "responses": ["Projects"],
+        "context": [""]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, I cannot understand you.", "Please, give me more info"],
+        "context": [""]
+    }
+]}
